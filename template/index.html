@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<!-- html -->
+<html>
+<!-- head -->
+<head>
+<title>Hello Books</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" /><!-- bootstrap-CSS -->
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css" media="all" /><!-- Fontawesome-CSS -->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script type='text/javascript' src='js/jquery-2.2.3.min.js'></script>
+<!-- Custom Theme files -->
+<link href="css/menu.css" rel="stylesheet" type="text/css" media="all" /> <!-- menu style --> 
+<!--theme-style-->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	
+<!--//theme-style-->
+<link rel="stylesheet" type="text/css" href="css/easy-responsive-tabs.css " />
+<!--meta data-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="keywords" content="Match Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--//meta data-->
+<!-- online fonts -->
+<link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&amp;subset=devanagari,latin-ext" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+<!-- /online fonts -->
+<!-- nav smooth scroll -->
+<script>
+$(document).ready(function(){
+    $(".dropdown").hover(            
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideDown("fast");
+            $(this).toggleClass('open');        
+        },
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideUp("fast");
+            $(this).toggleClass('open');       
+        }
+    );
+});
+</script>	
+<!-- //nav smooth scroll -->			
+<!-- Calendar -->
+	<link rel="stylesheet" href="css/jquery-ui.css" />
+	<script src="js/jquery-ui.js"></script>
+		<script>
+		  $(function() {
+			$( "#datepicker" ).datepicker();
+		 });
+		</script>
+<!-- //Calendar -->			
+<link rel="stylesheet" href="css/intlTelInput.css">
+</head>
+<!-- //head -->
+<!-- body -->
+<body>
+
+<!-- header -->
+<header>
+	<!--  Navigation Start -->
+ <div class="navbar navbar-inverse-blue navbar">
+    <!--<div class="navbar navbar-inverse-blue navbar-fixed-top">-->
+      <div class="navbar-inner">
+        <div class="container">
+          <div class="menu">
+					<div class="cd-dropdown-wrapper">
+						<a class="" href="/"><img src="images/logo.png" width="220px" height="50px" alt="Hello Books Logo"></a>
+						
+					</div> <!-- .cd-dropdown-wrapper -->	 
+				</div>
+           <div class="pull-right">
+          	<nav class="navbar nav_bottom" role="navigation">
+            <!-- Brand and toggle get grouped for better mobile display -->
+		  <div class="navbar-header nav_2">
+		      <button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">Menu
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		   </div> 
+		   <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
+		        <ul class="nav navbar-nav nav_1">
+		            <li class="active"><a href="index.html">Home</a></li>
+		            <li><a href="about.html">About</a></li>
+		            <li><a href="search.html">Search</a></li>
+		            <li><a href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Login</a></li>
+		        </ul>
+		     </div><!-- /.navbar-collapse -->
+		    </nav>
+		   </div> <!-- end pull-right -->
+          <div class="clearfix"> </div>
+        </div> <!-- end container -->
+      </div> <!-- end navbar-inner -->
+    </div> <!-- end navbar-inverse-blue -->
+<!-- ============================  Navigation End ============================ -->
+</header>
+<!-- /header -->
+
+<div class="w3layouts-banner" id="home">
+<div class="container">
+<div class="logo"></div>
+
+	<div class="clearfix"></div>
+
+		<div class="logo">
+		
+	
+
+	<div class="description">
+		
+		<h3>
+			
+			Hello-Books is an online application that helps manage a library and its processes like stocking, tracking and renting books. With this application users are able to find and rent books.
+
+		</h3>
+
+	</div></div>
+	<div class="agileits-register">
+		<center><h3>Join Us</h3></center>
+		<form action="#" method="post">
+				<div class="w3_modal_body_grid w3_modal_body_grid1">
+					<span>Full Name:</span>
+					<input type="text" name="full_name" placeholder="Full Name" required=""/>
+				</div>
+				<div class="w3_modal_body_grid w3_modal_body_grid1">
+					<span>Username:</span>
+					<input type="text" name="username" placeholder="Username" required=""/>
+				</div>
+				<div class="w3_modal_body_grid">
+					<span>Sex:</span>
+					<div class="w3_gender">
+						<div class="colr ert">
+							<label class="radio"><input type="radio" name="radio" checked=""><i></i>Male</label>
+						</div>
+						<div class="colr">
+							<label class="radio"><input type="radio" name="radio"><i></i>Female</label>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="w3_modal_body_grid w3_modal_body_grid1">
+					<span>Date Of Birth:</span>
+					<input class="date" id="datepicker" name="Text" type="text" value="mm/dd/yyyy" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '2/08/2017';}" required="" />
+				</div>
+				<div class="w3_modal_body_grid w3_modal_body_grid1">
+				<span>Mobile No:</span>
+				<!-- country codes (ISO 3166) and Dial codes. -->
+					<input id="phone" type="tel">
+				  <!-- Load jQuery from CDN so can run demo immediately -->
+				  <script src="js/intlTelInput.js"></script>
+				  <script>
+					$("#phone").intlTelInput({
+
+					  utilsScript: "js/utils.js"
+					});
+				  </script>
+				</div>
+				<div class="w3_modal_body_grid">
+					<span>Email:</span>
+					<input type="email" name="Email" placeholder=" " required=""/>
+				</div>
+				<div class="w3_modal_body_grid w3_modal_body_grid1">
+					<span>Password:</span>
+					<input type="password" name="Password" placeholder=" " required=""/>
+				</div>
+				<div class="w3-agree">
+					<input type="checkbox" id="c1" name="cc">
+					<label class="agileits-agree">I have read & agree to the <a href="terms.html">Terms and Conditions</a></label>
+				</div>
+				<input type="submit" value="Register me" />
+				<div class="clearfix"></div>
+				<p class="w3ls-login">Already a member? <a href="#" data-toggle="modal" data-target="#myModal">Login</a></p>
+			</form>
+		</div>
+		<!-- Modal -->
+				<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+				  <div class="modal-dialog">
+					<!-- Modal content-->
+					<div class="modal-content">
+					  <div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>		
+						<h4 class="modal-title">Login to Continue</h4>
+					  </div>
+					  <div class="modal-body">
+						<div class="login-w3ls">
+							<form id="signin" action="#" method="post">
+								<label>User Name </label>
+								<input type="text" name="User Name" placeholder="Username" required="">
+								<label>Password</label>
+								<input type="password" name="Password" placeholder="Password" required="">	
+								<div class="w3ls-loginr"> 
+									<input type="checkbox" id="brand" name="checkbox" value="">
+									<span> Remember me ?</span> 
+									<a href="#">Forgot password ?</a>
+								</div>
+								<div class="clearfix"> </div>
+								<input type="submit" name="submit" value="Login">
+								<div class="clearfix"> </div>
+								<div class="social-icons">
+									<ul>  
+										<li><a href="#"><span class="icons"><i class="fa fa-facebook" aria-hidden="true"></i></span><span class="text">Facebook</span></a></li> 
+										<li class="twt"><a href="#"><span class="icons"><i class="fa fa-twitter" aria-hidden="true"></i></span><span class="text">Twitter</span></a></li>  
+									</ul> 
+									<div class="clearfix"> </div>
+								</div>	
+							</form>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+				<!-- //Modal -->
+	</div>
+</div>
+<!-- Find your soulmate -->
+	<div class="w3l_find-soulmate text-center">
+		<h3>Get That Book!</h3>
+			<div class="container">
+				<a class="scroll" href="#home">
+					<div class="col-md-3 w3_soulgrid">
+						<i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+						<h3>Sign Up</h3>
+						<p>Signup for free to use all the features</p>
+					</div>
+				</a>
+				<a class="scroll" href="#home">
+					<div class="col-md-3 w3_soulgrid">
+						<i class="fa fa-search" aria-hidden="true"></i>
+						<h3>Search</h3>
+						<p>Search for your favourite books</p>
+					</div>
+				</a>
+				<a class="scroll" href="#home">
+					<div class="col-md-3 w3_soulgrid">
+						<i class="fa fa-users" aria-hidden="true"></i>
+						<h3>Rent</h3>
+						<p>Borrow any book of your choice</p>
+					</div>
+				</a>
+				<a class="scroll" href="#home">
+					<div class="col-md-3 w3_soulgrid">
+						<i class="fa fa-comments-o" aria-hidden="true"></i>
+						<h3>History</h3>
+						<p>Browse the history of your activities</p>
+					</div>
+				</a>
+				<div class="clearfix"> </div>
+			</div>
+	</div>
+	<!-- //Find your soulmate -->
+		
+		
+					   
+		
+	
+	
+<!-- footer -->
+<footer>
+	<div class="copy-right"> 
+		<div class="container">
+			<p>© 2017 Made with <i class="fa fa-heart" arial="true"></i> by <a href="http://github.com/nosisky"> Abdulrasaq Nasirudeen</a></p>
+		</div>
+	</div> 
+</footer>
+<!-- //footer -->	
+<!-- menu js aim -->
+	<script src="js/jquery.menu-aim.js"> </script>
+	<script src="js/main.js"></script> <!-- Resource jQuery -->
+	<!-- //menu js aim -->
+	<!-- for bootstrap working -->
+		<script src="js/bootstrap.js"></script>
+<!-- //for bootstrap working -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			var defaults = {
+	  			containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+	 		};
+			*/
+			
+			$().UItoTop({ easingType: 'easeOutQuart' });
+							
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- for smooth scrolling -->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+	</script>
+	<!-- //for smooth scrolling -->
+
+</body>
+<!-- //body -->
+</html>
+<!-- //html -->
