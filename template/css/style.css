@@ -3,7 +3,7 @@ html, body {
 }
 body {
     padding-top: 90px;
-    background: url(../images/body-bg.jpg);
+    background: linear-gradient(to bottom, rgb(45, 60, 113), rgba(6, 7, 47, 0.65)), url(../images/body-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: fixed;
