@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.ef629328.chunk.css",
-    "main.js": "/static/js/main.98b90786.chunk.js",
-    "main.js.map": "/static/js/main.98b90786.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.94367783.js",
-    "runtime-main.js.map": "/static/js/runtime-main.94367783.js.map",
-    "static/js/2.6cd719a6.chunk.js": "/static/js/2.6cd719a6.chunk.js",
-    "static/js/2.6cd719a6.chunk.js.map": "/static/js/2.6cd719a6.chunk.js.map",
+    "main.js": "/static/js/main.13f107f3.chunk.js",
+    "main.js.map": "/static/js/main.13f107f3.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.fefaf7c6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.fefaf7c6.js.map",
+    "static/js/2.49ea3ebe.chunk.js": "/static/js/2.49ea3ebe.chunk.js",
+    "static/js/2.49ea3ebe.chunk.js.map": "/static/js/2.49ea3ebe.chunk.js.map",
     "static/css/3.00373544.chunk.css": "/static/css/3.00373544.chunk.css",
-    "static/js/3.0730bd7d.chunk.js": "/static/js/3.0730bd7d.chunk.js",
-    "static/js/3.0730bd7d.chunk.js.map": "/static/js/3.0730bd7d.chunk.js.map",
+    "static/js/3.68146e71.chunk.js": "/static/js/3.68146e71.chunk.js",
+    "static/js/3.68146e71.chunk.js.map": "/static/js/3.68146e71.chunk.js.map",
     "static/css/4.a922a401.chunk.css": "/static/css/4.a922a401.chunk.css",
-    "static/js/4.deff4f0b.chunk.js": "/static/js/4.deff4f0b.chunk.js",
-    "static/js/4.deff4f0b.chunk.js.map": "/static/js/4.deff4f0b.chunk.js.map",
+    "static/js/4.c32bbf22.chunk.js": "/static/js/4.c32bbf22.chunk.js",
+    "static/js/4.c32bbf22.chunk.js.map": "/static/js/4.c32bbf22.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.31d5676ec27b8ff91efd11b1eacc0a24.js": "/precache-manifest.31d5676ec27b8ff91efd11b1eacc0a24.js",
+    "precache-manifest.89f99be56bf7894a6e9cc08f728b7f4d.js": "/precache-manifest.89f99be56bf7894a6e9cc08f728b7f4d.js",
     "service-worker.js": "/service-worker.js",
     "static/css/3.00373544.chunk.css.map": "/static/css/3.00373544.chunk.css.map",
     "static/css/4.a922a401.chunk.css.map": "/static/css/4.a922a401.chunk.css.map",
@@ -23,6 +23,7 @@
     "static/media/airbnbLogo.png": "/static/media/airbnbLogo.c59720d6.png",
     "static/media/andela-logo.png": "/static/media/andela-logo.55950fb6.png",
     "static/media/andela.png": "/static/media/andela.a62436ea.png",
+    "static/media/autochek.png": "/static/media/autochek.8fe845f4.png",
     "static/media/codeInLogo.webp": "/static/media/codeInLogo.47a7a717.webp",
     "static/media/contactMail.webp": "/static/media/contactMail.68e84138.webp",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.51cf7192.svg",
@@ -49,9 +50,9 @@
     "static/media/udacity.png": "/static/media/udacity.5ace58bb.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.94367783.js",
-    "static/js/2.6cd719a6.chunk.js",
+    "static/js/runtime-main.fefaf7c6.js",
+    "static/js/2.49ea3ebe.chunk.js",
     "static/css/main.ef629328.chunk.css",
-    "static/js/main.98b90786.chunk.js"
+    "static/js/main.13f107f3.chunk.js"
   ]
 }
